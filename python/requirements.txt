@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+
+pdfplumber
+python-docx
+
+# After install, run once: python -m spacy download en_core_web_sm
+spacy>=3.7
+sentence-transformers
+scikit-learn
+numpy
